@@ -16,4 +16,5 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class ShoppingCart {
+    private String name;
 }

@@ -7,7 +7,8 @@ package com.team.boot.utils;
  * @version: 1.0
  */
 public enum OrderStatus {
-
+//     已取消
+    CANCELED,
 //    未提交
     UNSUBMIT,
 //    未付款

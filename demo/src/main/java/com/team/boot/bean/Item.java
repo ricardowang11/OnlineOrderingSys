@@ -21,15 +21,17 @@ public class Item {
     private int id;
 
     private String name;
-//    商品价格
+    //    商品是否售空
+    private boolean empty;
+    //    商品价格
     private float price;
     //    商家id
     private int shopId;
-//    商品图片
+    //    商品图片
     private String pic;
-//    商品评分
+    //    商品评分
     private float score;
-//    商品评价
+    //    商品评价
     private LinkedList<String> comments;
 
 }

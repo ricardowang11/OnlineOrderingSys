@@ -1,0 +1,17 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+
+  datasource:
+    username: root
+    password: 123456789
+    url: jdbc:mysql://47.116.142.55:3306/
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
