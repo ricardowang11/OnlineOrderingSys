@@ -1,6 +1,7 @@
 package com.team.boot.controller;
 
 import com.team.boot.bean.Order;
+import com.team.boot.utils.ReturnMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,26 +15,26 @@ import org.springframework.web.bind.annotation.*;
 public class OrderController {
     //    取消某个订单
     @DeleteMapping("order/{id}")
-    public boolean deleteOrder(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage deleteOrder(@PathVariable("id") int id) {
+        return null;
     }
 
     //提交订单————————通过参数传递新建的order
     @PostMapping("/order")
-    public boolean addOrder() {
-        return false;
+    public ReturnMessage addOrder() {
+        return null;
     }
 
     //    付款
     @GetMapping("/pay/{id}")
-    public boolean pay(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage pay(@PathVariable("id") int id) {
+        return null;
     }
 
     //    订单送达
     @PutMapping("/arrive/{id}")
-    public boolean arriveOrder(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage arriveOrder(@PathVariable("id") int id) {
+        return null;
     }
 //    抢单
 

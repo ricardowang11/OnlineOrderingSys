@@ -1,0 +1,86 @@
+{
+  "id": "2390665",
+  "name": "MyBlog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19562153",
+      "name": "邮件",
+      "font_class": "email",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "258625",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "7812495",
+      "name": "收 藏 (2)",
+      "font_class": "favorite",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "16576841",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "17768767",
+      "name": "收 藏",
+      "font_class": "toFavorite",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "17999154",
+      "name": "反馈",
+      "font_class": "fankui",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "19311988",
+      "name": "消 息",
+      "font_class": "xiaoxi",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "20000497",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "20000502",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "20000503",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "20000504",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

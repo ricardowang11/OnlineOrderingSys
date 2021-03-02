@@ -15,7 +15,11 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        return false;
+
+        System.out.println("拦截了"+request.getServletPath()+"--------》即将重定向");
+
+
+        return true;
     }
 
     @Override

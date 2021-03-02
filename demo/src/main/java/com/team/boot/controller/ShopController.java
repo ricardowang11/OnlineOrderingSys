@@ -1,6 +1,7 @@
 package com.team.boot.controller;
 
 import com.team.boot.bean.Shop;
+import com.team.boot.utils.ReturnMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,20 +29,20 @@ public class ShopController {
 
     //    下架商品
     @DeleteMapping("/item/{id}")
-    public boolean deleteItem(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage deleteItem(@PathVariable("id") int id) {
+        return null;
     }
 
     //    设置商品售空
     @PutMapping("/item/{id}")
-    public boolean emptyItem(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage emptyItem(@PathVariable("id") int id) {
+        return null;
     }
 
     //    更改商品价格
     @GetMapping("/item/{id}")
-    public boolean updatePrice(@PathVariable("id") int id) {
-        return false;
+    public ReturnMessage updatePrice(@PathVariable("id") int id) {
+        return null;
     }
 
 }

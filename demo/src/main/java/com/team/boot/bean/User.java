@@ -22,13 +22,13 @@ public class User {
     private int id;
     private String username;
     private String password;
-    private String phone;
+    private String email;
     private LinkedList<Destination> destinations=new LinkedList<>();
 
-    public User(int id, String username, String password, String phone) {
+    public User(int id, String username, String password, String email) {
         this.id = id;
         this.username = username;
         this.password = password;
-        this.phone = phone;
+        this.email = email;
     }
 }
